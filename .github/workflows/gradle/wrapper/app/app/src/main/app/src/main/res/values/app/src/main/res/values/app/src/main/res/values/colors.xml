@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gold">#FFD700</color>
+    <color name="dark_brown">#1a0a00</color>
+    <color name="medium_brown">#3d1a00</color>
+    <color name="black">#000000</color>
+</resources>
