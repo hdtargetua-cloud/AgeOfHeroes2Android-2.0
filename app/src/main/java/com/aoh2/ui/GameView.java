@@ -177,8 +177,11 @@ public class GameView extends SurfaceView
         canvas.drawText("Нед." + state.week + "  День " + state.day, w / 2f, hy + 44, ctr);
 
         Paint right = new Paint(hudTxt); right.setTextAlign(Paint.Align.RIGHT);
-        canvas.drawText("⚔ " + state.getTotalArmyPower(), w - 14f, hy + 44, right);
-
+       int armyPower = 0;
+for (int i = 0; i < state.armyStackCount; i++) {
+    armyPower += state.armyCounts[i];
+}
+canvas.drawText("⚔ " + armyPower, w - 14f, hy + 44, right);
         drawBtn(canvas, btnEndDay, "▶ День");
         drawBtn(canvas, btnSave,   "💾");
 
