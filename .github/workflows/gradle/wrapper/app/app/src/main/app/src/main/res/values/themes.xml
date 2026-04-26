@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AgeOfHeroes2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#1a0a00</item>
+        <item name="colorPrimaryVariant">#3d1a00</item>
+        <item name="colorOnPrimary">#FFD700</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="Theme.AgeOfHeroes2.Fullscreen" parent="Theme.AgeOfHeroes2">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+
+    <style name="AOH2Dialog" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:background">#1a0a00</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="colorPrimary">#FFD700</item>
+    </style>
+</resources>
