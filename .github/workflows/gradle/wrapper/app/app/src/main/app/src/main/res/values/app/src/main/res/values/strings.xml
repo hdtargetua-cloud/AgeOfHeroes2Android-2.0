@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Age of Heroes 2</string>
+    <string name="btn_yes">Да</string>
+    <string name="btn_no">Нет</string>
+    <string name="confirm_new_game">Начать новую игру? Прогресс будет потерян.</string>
+</resources>
