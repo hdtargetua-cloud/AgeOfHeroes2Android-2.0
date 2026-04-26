@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.aoh2"
-        minSdk 29
+        minSdk 10
         targetSdk 34
         versionCode 1
         versionName "2.0.0"
